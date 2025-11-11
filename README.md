@@ -167,24 +167,7 @@ Copy code
 
 ---
 
-## 📁 Recommended Project Structure
 
-GHG-Emission-Prediction
-│ README.md
-│ requirements.txt
-│ data/
-│ SupplyChainEmissionFactorsforUSIndustriesCommodities.xlsx
-│ notebooks/
-│ data_cleaning.ipynb
-│ models/
-│ ghg_model.pkl
-│ app/
-│ app.py
-
-yaml
-Copy code
-
----
 
 ## ✨ Key Features
 - Multi-year, multi-sheet dataset integration  
