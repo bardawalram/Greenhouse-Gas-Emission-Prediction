@@ -75,25 +75,15 @@ Copy code
 ### ✅ 4. Merge Yearly Data
 Combine commodity + industry sheets for each year.
 
-### ✅ 5. Combine All Years
-Concatenate all years into one final DataFrame:
 
-```python
-df = pd.concat(all_data, ignore_index=True)
-✅ 6. Clean Redundant Columns
-Remove empty columns like:
-
-python
-Copy code
-df.drop(columns=['Unnamed: 7'], inplace=True)
-✅ 7. Preprocessing
+✅ 5. Preprocessing
 Handle missing values
 
 Encode categorical features
 
 Scale numerical columns
 
-✅ 8. Model Training
+✅ 6. Model Training
 Models used:
 
 Linear Regression
@@ -108,7 +98,7 @@ Mean Absolute Error (MAE)
 
 Root Mean Squared Error (RMSE)
 
-## ✅ 9. Model Saving
+## ✅ 7. Model Saving
 python
 Copy code
 joblib.dump(model, "ghg_model.pkl")
